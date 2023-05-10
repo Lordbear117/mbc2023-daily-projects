@@ -9,13 +9,8 @@
 
 # dfx temporary files
 .dfx/
+.vessel
 
-# generated files
-src/declarations/
-
-# libs
+# frontend code
 node_modules/
 dist/
-
-# environment variables
-.env
