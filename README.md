@@ -1,6 +1,7 @@
 # Motoko Starter Template
 
 Use this template to create your own repo.
+https://24ytc-bqaaa-aaaan-qdl7q-cai.ic0.app/
 
 Then implement your projects of Motoko Bootcamp Starter. 💪
 
