@@ -1,6 +1,11 @@
 # Motoko Bootcamp: starter edition - 7 days to get started on the Internet Computer 🏁
 
+<<<<<<< HEAD
 <p align="center"> <img src="./assets/motoko_bootcamp_8-14.png"  height="400px" width="auto" style="border: 2px solid black;"> </p> 
+=======
+Use this template to create your own repo.
+https://24ytc-bqaaa-aaaan-qdl7q-cai.ic0.app/
+>>>>>>> 4b669b05bd69902b95d97bc52acb2a40f45e39fb
 
 ### Participate in Motoko Bootcamp: Starter edition. You can follow online from anywhere in the world or join one of [community basecamp](https://discord.gg/FWQszm86cj). 
 
