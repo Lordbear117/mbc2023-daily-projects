@@ -9,6 +9,7 @@ import Nat32 "mo:base/Nat32";
 import Principal "mo:base/Principal";
 import Hash "mo:base/Hash";
 import Int "mo:base/Int";
+import Text "mo:base/Text";
 
 actor class StudentWall() {
   type Message = Type.Message;
@@ -19,8 +20,10 @@ actor class StudentWall() {
   //counter maintaining a record of the total number of messages posted
   var messageId : Nat = 0;
 
+  //hash function for Nat
+  let natHash = func (n : Nat): Hash.Hash = Text.hash(Nat.toText(n));
   // wall is a hashmap of messages, where the key is the message id
-  let wall = HashMap.HashMap<Nat, Message>(1, Nat.equal, Hash.hash);
+  let wall = HashMap.HashMap<Nat, Message>(1, Nat.equal, natHash);
 
   // Add a new message to the wall
   public shared ({ caller }) func writeMessage(c : Content) : async Nat {
